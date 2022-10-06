@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fullNameFragment">
 
+    <activity
+        android:id="@+id/fullNameFragment"
+        android:name="com.example.nguyentanphat.FullNameFragment"
+        android:label="FullNameFragment" />
+    <activity
+        android:id="@+id/addressFragment"
+        android:name="com.example.nguyentanphat.AddressFragment"
+        android:label="AddressFragment" />
+    <activity
+        android:id="@+id/emailFragment"
+        android:name="com.example.nguyentanphat.EmailFragment"
+        android:label="EmailFragment" />
 </navigation>
