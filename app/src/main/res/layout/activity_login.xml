@@ -5,58 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EAF1EB"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    tools:layout_editor_absoluteY="81dp">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="166dp"
-        android:layout_height="42dp"
-        android:background="#F3F2F2"
-        android:text="Sign up"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="351dp" />
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="594dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="7dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="358dp"
-        android:layout_height="102dp"
-        android:background="#4CAF50"
-        android:text="Foody-App"
-        android:textAllCaps="true"
-        android:textColor="#FDFCFC"
-        android:textColorHint="#801010"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
-        tools:layout_editor_absoluteX="27dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="358dp"
+            android:layout_height="102dp"
+            android:background="#4CAF50"
+            android:text="Foody-App"
+            android:textAllCaps="true"
+            android:textColor="#FDFCFC"
+            android:textColorHint="#801010" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="356dp"
-        android:layout_height="44dp"
-        android:background="#F8F4F4"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ID"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="182dp" />
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="356dp"
+            android:layout_height="44dp"
+            android:background="#F8F4F4"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ID" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="356dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="264dp" />
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="356dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPassword" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="166dp"
-        android:layout_height="42dp"
-        android:background="#4CAF50"
-        android:text="Sign in"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="351dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="345dp"
+            android:layout_height="57dp"
+            android:background="#4CAF50"
+            android:text="Sign in" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="347dp"
+            android:layout_height="52dp"
+            android:background="#F3F2F2"
+            android:text="Sign up" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
